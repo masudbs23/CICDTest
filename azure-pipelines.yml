@@ -17,7 +17,7 @@ steps:
   displayName: Build .Net projects
   inputs:
     command: build
-    projects: '.sln'
+    projects: 'CICDTest.sln'
     arguments: --configuration $(buildConfiguration)
     workingDirectory: '$(Build.SourcesDirectory)/CICDTest/'
 
