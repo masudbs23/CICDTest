@@ -17,6 +17,7 @@ namespace CICDTest.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.Tag = "Test trigger";
             return View();
         }
 
