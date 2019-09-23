@@ -19,7 +19,7 @@ steps:
     command: build
     projects: 'CICDTest.sln'
     arguments: --configuration $(buildConfiguration)
-    workingDirectory: '$(Build.SourcesDirectory)/CICDTest/'
+    workingDirectory: '$(Build.SourcesDirectory)'
 
 - task: DotNetCoreCLI@2
   displayName: Publish Bearing User
